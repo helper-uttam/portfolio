@@ -5,7 +5,7 @@
         "id": 1,
         "name": "Secret App",
         "desc": "Anyone can share their secret anonymously",
-        "image": "https://res.cloudinary.com/dkak37mek/image/upload/v1626933127/mlpr_c2stn8.jpg",
+        "image": "https://github.com/helper-uttam/myportfolio/blob/master/assets/img/work2.jpg",
         "links": {
             "view": "https://secret-ridge-48102.herokuapp.com/",
             "code": "https://github.com/helper-uttam/SecretApp"

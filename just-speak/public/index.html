@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/styles.css">
+    <!-- CSS only -->
+    <title>JustSpeak🔊</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="first">
+            <p>JustSpeak</p>
+        </div>
+        <!-- only for mobile view -->
+        <div class="topnav">
+            <div id="myLinks">
+              <a href="#home">Home</a>
+              <a href="#contact">Contact</a>
+              <a href="#uttam">About</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <!-- mobile viiew ends -->
+        <div class="second">
+            <a href="#home"><p>Home</p></a>
+            <a href="#uttam"><p>About</p></a>
+            <a href="#contact"><p>Contact</p></a>
+        </div>
+    </div>
+    <div id="home" class="header">
+        <div class="logo">
+            <h1>Just Speak.com 🔊</h1>
+            <h6>One stop solution for all transcript works!</h6>
+        </div>
+        <div class="gif">
+            <img src="./assets/speechReco.png" alt="gif">
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- first section for - title -->
+        <h4 id="title">Title</h4>
+        <input id="inputTitle" type="text" placeholder="Enter your Title here">
+        <button id="inputTitleBtn" onclick="setTitle();"> <img src="assets/setTitle.png" alt=""></button> </button>
+        
+        <!-- second section for - textarea -->   
+        <div class="language_menu">
+            <h4 >Select Voice <span class="select_optional">(Optional)</span></h4>
+            <div>
+              <select></select>
+            </div>
+        </div> 
+        <div class="audio_to_text">
+                <textarea id="text_area" rows="20" cols="60" placeholder="All text will go here when you'll speak"></textarea>
+            </div>
+            <div class="items">
+                <button class="start"><img src="assets/speak.png"/></button>
+                <button class="listen"><img src="assets/listen.png"></button>
+                <button class="reset"><img src="assets/reset.png"></button>
+                <button class="download"><img src="assets/download.png"></button>
+            </div>
+    </div>
+    <!-- third section for - email -->    
+    <div class="email_notes">
+        <h2>Sending transcript to your any mail became easy with JustSpeak🔊</h2>
+        <form action="/" method="post">
+            <input type="email"  id="usermail" name="email" placeholder="Enter your email here">
+            <button id="save"><img src="assets/save.png"></button>
+            <button id="send" type="submit" disabled><img src="assets/sendmail.png"></button>
+        </form>
+        <p class="instruct">*You have to save the transcript first then you can send it to your email.</p>
+    </div>
+
+    <div id="uttam">
+        <div class="madeby">
+            <h2>Made <span>By</span></h2>
+        </div>
+        <h2>Uttam</h2>
+        <h2>Please do give a rating!</h2>
+    </div>
+
+    <!-- footer section -->
+    <footer id="contact">
+        <p>Made with ❤️ in India</p>
+        <p>copyright © 2021 all rights reserved</p>
+    </footer>
+</body>
+</html>

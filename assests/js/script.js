@@ -41,7 +41,7 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Portfolio | Uttam kumae";
+        document.title = "Portfolio | Uttam kumar";
         $("#favicon").attr("href","assests/images/favicon.png");
     }
     else {
@@ -159,3 +159,15 @@ srtop.reveal('.experience .timeline .container',{interval: 400});
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container',{delay: 400});
 srtop.reveal('.contact .container .form-group',{delay: 400});
+
+const submitHandler = async (userData) => {
+    await fetch('https://my-portfolio-47fe2-default-rtdb.firebaseio.com/message.json',{
+        method: 'POST',
+        body: JSON.stringify({
+            Name: userData.newTitle,
+            Email: userData.bodyOfNotes,
+            Message: userData.Message
+        })
+      });
+    location.reload();
+}

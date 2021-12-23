@@ -465,8 +465,26 @@
       <div class="image-box">
         <img draggable="false" src="./assests/images/contact1.png" alt="">
       </div>
-      <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=7Yu9NMEqrkGfCE4KPxFwbFyLul7dC0dHtVAiD83zsFNUQVdDVDZLWEdDMEhJR0FUWUhLMklZN05PUS4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-  </div>
+      <!-- <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=7Yu9NMEqrkGfCE4KPxFwbFyLul7dC0dHtVAiD83zsFNUQVdDVDZLWEdDMEhJR0FUWUhLMklZN05PUS4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe> -->
+      <form class="get_in_touch">
+        <div class="get">
+          <label for="name" id="name">Name</label>
+          <input type="text" id="name">
+        </div>
+        <div class="get">
+          <label for="email" id="email">Email</label>
+          <input type="email">
+        </div>
+        <div class="get">
+          <label for="message" id="message">Message</label>
+          <input type="text">
+        </div>
+        <div class="get last">
+          <button class="get_b" onclick="submitHandler()">Send</button>
+        </div>
+        <p class="hint">*You can also contact me via the floating button on right-bottom</p>
+      </form>
+    </div>
   </div>
 </section>
 <!-- contact section ends -->
@@ -537,6 +555,5 @@
 <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
 <script src="./assests/js/script.js"></script>
-
 </body>
 </html>

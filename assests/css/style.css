@@ -956,6 +956,52 @@ header .navbar ul li a:hover{
   transform: translateX(5px);
 }
 
+
+/* geting in touch starts */
+.get_in_touch{
+  display: flex;
+  flex-direction: column;
+}
+.get{
+  margin-bottom: 25px;
+  line-height: 2;
+}
+.get > input{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  font-size: 2rem;
+  background-color: #c8d6e5;
+  border-radius: 20px;
+  padding: 5%;
+}
+#name, #email, #message{
+  font-size: 2rem;
+}
+.get_b{
+ padding: 3%;
+ width: 150px;
+ background-color: #FF5959; 
+ cursor: pointer;
+ font-size: 2rem;
+ color: white;
+ border-radius: 20px;
+}
+.last{
+  margin-top: 20px;
+  text-align: center;
+}
+.get_b:hover{
+  transition: 2s;
+  background-color: #FF6D6D;
+}
+.hint{
+  margin-top: 40px;
+  font-size: 1rem;
+}
+/* getting in touch ends */
+
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   .experience{

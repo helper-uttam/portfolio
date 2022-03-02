@@ -10,6 +10,15 @@
             "view": "https://secret-ridge-48102.herokuapp.com/",
             "code": "https://github.com/helper-uttam/SecretApp"
         }
+    },
+    {
+        "id": 2,
+        "name": "Weather App",
+        "desc": "Using nodeJs, HTML, CSS, API and embeded Javascript this simple app is buit.",
+        "image": "../assests/images/projects/weather.jpg",
+        "links": {
+            "view": "https://murmuring-taiga-68942.herokuapp.com/",
+            "code": "/"
+        }
     }
-    
 ]

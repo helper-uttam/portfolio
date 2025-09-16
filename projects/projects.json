@@ -1,18 +1,17 @@
 [ 
-    
-     {
+    {
         "id": 1,
-        "name": "Mimic OS App",
-        "desc": "Quick no setup online CLI simulator for Mac, Linux and Windows",
-        "image": "../assests/images/projects/mimicOS.PNG",
+        "name": "Food ordering Website",
+        "desc": "This is simple a Food Ordering Website in which we can order foods and that data will be kept in the backend(firebase).",
+        "image": "../assests/images/projects/food.png",
         "links": {
-            "view": "https://mimic-os.vercel.app/auth/signup",
-            "code": "https://github.com/helper-uttam/mimic_os"
+            "view": "https://foodorder-b0645.web.app/",
+            "code": "https://github.com/helper-uttam/FoodOrderingApp"
         }
     },
     {
         "id": 2,
-        "name": "Mimic OS App",
+        "name": "Secret App",
         "desc": "Anyone can share their secret anonymously",
         "image": "../assests/images/projects/secret.jpg",
         "links": {
@@ -21,7 +20,7 @@
         }
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Weather App",
         "desc": "Using nodeJs, HTML, CSS, API and embeded Javascript this simple app is buit.",
         "image": "../assests/images/projects/weather.jpg",

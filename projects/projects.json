@@ -1,9 +1,18 @@
 [ 
     
-    
-    {
+     {
         "id": 1,
-        "name": "Secret App",
+        "name": "Mimic OS App",
+        "desc": "Quick no setup online CLI simulator for Mac, Linux and Windows",
+        "image": "../assests/images/projects/mimicOS.PNG",
+        "links": {
+            "view": "https://mimic-os.vercel.app/auth/signup",
+            "code": "https://github.com/helper-uttam/mimic_os"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Mimic OS App",
         "desc": "Anyone can share their secret anonymously",
         "image": "../assests/images/projects/secret.jpg",
         "links": {
